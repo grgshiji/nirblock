@@ -1,0 +1,13 @@
+{
+  "name": "nirblock",
+  "type": "ui-container",
+  "source": {
+    "https": "https://github.com/grgshiji/nirblock",
+    "ssh": "git@github.com:grgshiji/nirblock.git"
+  },
+  "language": "js",
+  "start": "npx webpack-dev-server",
+  "build": "npx webpack",
+  "postPull": "npm i",
+  "standAloneBlock": false
+}
